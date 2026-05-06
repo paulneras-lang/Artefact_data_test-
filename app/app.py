@@ -72,9 +72,7 @@ image_compare_slider(
 st.write("By default, the slider doesn't trigger reruns.")
 
 
-from streamlit_extras.image_compare_slider import *
-
-st.write("Pokemon Comparison")
+st.write("Pokemon Comparison2")
 st.write("Drag the slider to compare the two images.")
 
 image_compare_slider(
