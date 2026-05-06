@@ -70,3 +70,18 @@ image_compare_slider(
     key="basic_compare",
 )
 st.write("By default, the slider doesn't trigger reruns.")
+
+
+from streamlit_extras.image_compare_slider import *
+
+st.write("Pokemon Comparison")
+st.write("Drag the slider to compare the two images.")
+
+image_compare_slider(
+    "https://m.media-amazon.com/images/I/81E5GaIww-S.jpg",
+    "https://static.fnac-static.com/multimedia/images_produits/ZoomPE/3/4/9/0045496464943/tsp20250116214635/Pokemon-Version-Perle.jpg",
+    label1="Color",
+    label2="Grayscale",
+    key="basic_compare",
+)
+st.write("By default, the slider doesn't trigger reruns.")
